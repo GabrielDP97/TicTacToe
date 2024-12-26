@@ -23,7 +23,7 @@ Para ejecutar este proyecto, asegúrese de tener instalados los siguientes compo
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/<tu-usuario>/TicTacToe.git
+git clone https://github.com/GabrielDP97/TicTacToe.git
 cd TicTacToe
 ```
 
