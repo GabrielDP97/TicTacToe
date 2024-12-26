@@ -1,0 +1,53 @@
+/* Contenedor principal */
+.root-container {
+    -fx-alignment: center;
+    -fx-padding: 20px;
+    -fx-background-color: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+}
+
+/* Texto del turno */
+.turn-text {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-alignment: center;
+}
+
+/* Tablero de juego */
+.game-board {
+    -fx-grid-lines-visible: false; /* Oculta las líneas divisorias */
+    -fx-alignment: center;
+    -fx-pref-width: 300px; /* Asegurar el tamaño del tablero */
+    -fx-pref-height: 300px;
+}
+
+/* Botones del tablero */
+.cell-button {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #e0e0e0);
+    -fx-border-color: #555;
+    -fx-border-width: 2px;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #555;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 2, 0, 1, 1);
+    -fx-padding: 5;
+    -fx-pref-width: 100%; /* Tamaño adaptable al GridPane */
+    -fx-pref-height: 100%; /* Tamaño adaptable al GridPane */
+}
+
+/* Hover sobre los botones */
+.cell-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #e0e0e0, #d0d0d0);
+}
+
+/* Colores para el jugador X */
+.cell-button.x-player {
+    -fx-text-fill: #ff4c4c; /* Rojo */
+}
+
+/* Colores para el jugador O */
+.cell-button.o-player {
+    -fx-text-fill: #4c6ef5; /* Azul */
+}
